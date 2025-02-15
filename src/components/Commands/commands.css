@@ -1,0 +1,44 @@
+/* Container de Comandos */
+.commands-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #202225;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Cada Comando */
+.command {
+    display: flex;
+    align-items: center;
+    background-color: #2b2d31;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Caixa do Comando */
+.command-box {
+    background-color: #1e1f22;
+    border: 1px solid #40444b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+/* Tags de Membro */
+.member-tag {
+    background-color: #5865f2;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 5px;
+}

@@ -1,0 +1,95 @@
+/* Card */
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #202225;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    max-width: 900px;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* Imagem */
+.card-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Conteúdo */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    font-size: 1.1rem;
+    color: #b9bbbe;
+    margin-bottom: 20px;
+}
+
+/* Botão Customizado */
+.custom-btn {
+    display: inline-block;
+    background-color: #5865f2;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 150px;
+}
+
+.custom-btn:hover {
+    background-color: #4752c4;
+}
+
+/* Botão de troca de idioma */
+.language-switcher {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-switcher button {
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.language-switcher button:hover {
+    background-color: #4752c4;
+    transform: scale(1.1);
+}
+
+.language-switcher button:active {
+    transform: scale(0.95);
+}
+
+.language-switcher button img {
+    height: 110%;
+    object-fit: contain;
+    border-radius: 50%;
+}
