@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <Card />
-            <Commands />
+            {/* <Commands /> */}
             <Contact />
         </>
     )
