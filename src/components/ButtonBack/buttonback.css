@@ -1,0 +1,25 @@
+/* Container de Contato */
+.contact-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #202225;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+.contact-title-left {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact-paragraph {
+    font-size: 1rem;
+    color: #b9bbbe;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}

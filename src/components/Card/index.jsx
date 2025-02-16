@@ -1,7 +1,9 @@
 import "./card.css"
+import { Link } from "react-router-dom"
 
 const Card = () => {
     return (
+        <div className="card-wrapper">
         <div className="container">
             <div className="card-img">
                 <img src="/images/gleice.jpg" alt="Descrição" />
@@ -13,16 +15,21 @@ const Card = () => {
                     programming knowledge. Through it, I am learning to develop
                     and integrate various technologies.
                 </p>
-                <div class="button-container">
+                <div className="button-container">
                     <a
                         href="https://discord.com/oauth2/authorize?client_id=1306407860493877258&permissions=8&integration_type=0&scope=bot"
-                        class="custom-btn"
+                        className="custom-btn"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         Add
                     </a>
+                    <Link to="/commands" className="custom-btn secondary-btn">
+                        Commands
+                    </Link>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

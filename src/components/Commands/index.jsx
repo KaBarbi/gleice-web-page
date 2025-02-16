@@ -1,4 +1,4 @@
-import "./Commands.css"
+import "./commands.css"
 
 const Commands = () => {
     const commands = [
@@ -31,7 +31,7 @@ const Commands = () => {
             args: ["text"],
         },
         {
-            command: "!add",
+            command: "!sum",
             description:
                 "Make the bot add two numbers and show you the result.",
             args: ["x", "y"],

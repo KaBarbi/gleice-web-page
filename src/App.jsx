@@ -1,15 +1,15 @@
-import { useState } from "react"
-import Card from "./components/card"
-import Commands from "./components/Commands"
-import Contact from "./components/Contact"
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home" // Página principal
+import List from "./pages/List" // Página de comandos
 
-function App() {
+const App = () => {
     return (
-        <>
-            <Card />
-            {/* <Commands /> */}
-            <Contact />
-        </>
+        <Routes>
+            <Route path="/" element={<Home />} />{" "}
+            {/* Define a Home como página inicial */}
+            <Route path="/commands" element={<List />} />{" "}
+            {/* Define /commands para carregar List */}
+        </Routes>
     )
 }
 
