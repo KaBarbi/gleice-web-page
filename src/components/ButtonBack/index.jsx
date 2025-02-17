@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import './ButtonBack.css' // Importando o arquivo de CSS
+import "./buttonback.css";
 
 const ButtonBack = () => {
     return (
