@@ -18,7 +18,7 @@ const ButtonCmd = () => {
 const StyledWrapper = styled.div`
   .button {
     --color: #5865f2;
-    padding: 0.3em 3.2em;
+    padding: 0.3em 2.5em;
     background-color: transparent;
     border-radius: .3em;
     position: relative;

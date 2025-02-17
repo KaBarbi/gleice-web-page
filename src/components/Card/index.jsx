@@ -1,6 +1,5 @@
 import ButtonAdd from "./add-btn"
 import "./card.css"
-import { Link } from "react-router-dom"
 import ButtonCmd from "./cmd-btn"
 
 const Card = () => {

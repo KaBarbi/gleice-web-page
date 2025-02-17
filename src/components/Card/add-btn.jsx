@@ -33,8 +33,8 @@ const StyledWrapper = styled.div`
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
-    text-decoration: none; /* Remove underline from <a> */
-    display: inline-block; /* Ensures it behaves like a block element */
+    text-decoration: none; 
+    display: inline-block; 
   }
 
   .button::before, .button::after {
