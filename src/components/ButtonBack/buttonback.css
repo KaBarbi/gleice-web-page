@@ -23,3 +23,43 @@
     margin-bottom: 20px;
     line-height: 1.5;
 }
+
+.custom-button {
+    background-color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    position: relative;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 2px solid #5865f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-button:hover .custom-button-icon {
+    width: 100%;
+}
+
+.custom-button-icon {
+    background-color: #5865f2;
+    height: 2.3rem;
+    width: 25%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    transition: width 0.5s ease;
+}
+
+.button-text {
+    transform: translateX(1rem);
+    z-index: 1;
+}
