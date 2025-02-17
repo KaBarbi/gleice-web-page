@@ -1,5 +1,7 @@
+import ButtonAdd from "./add-btn"
 import "./card.css"
 import { Link } from "react-router-dom"
+import ButtonCmd from "./cmd-btn"
 
 const Card = () => {
     return (
@@ -16,21 +18,8 @@ const Card = () => {
                         develop and integrate various technologies.
                     </p>
                     <div className="button-container">
-                        <a
-                            href="https://discord.com/oauth2/authorize?client_id=1306407860493877258&permissions=8&integration_type=0&scope=bot"
-                            className="custom-btn"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <span>Add</span>
-                        </a>
-
-                        <Link
-                            to="/commands"
-                            className="custom-btn secondary-btn"
-                        >
-                            Commands
-                        </Link>
+                        <ButtonAdd />
+                        <ButtonCmd />
                     </div>
                 </div>
             </div>
