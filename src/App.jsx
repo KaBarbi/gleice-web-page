@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import Home from "./pages/Home" // Página principal
-import List from "./pages/List" // Página de comandos
+import Home from "./pages/Home"
+import List from "./pages/List"
 
 const App = () => {
     return (
