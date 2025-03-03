@@ -5,10 +5,8 @@ import List from "./pages/List"
 const App = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />{" "}
-            {/* Define a Home como página inicial */}
-            <Route path="/commands" element={<List />} />{" "}
-            {/* Define /commands para carregar List */}
+            <Route path="/" element={<Home />} />
+            <Route path="/commands" element={<List />} />
         </Routes>
     )
 }
