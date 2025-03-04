@@ -8,6 +8,17 @@ const Commands = () => {
             args: [],
         },
         {
+            command: "!dolar",
+            description: "Show USD to BRL Exchange Rate.",
+            args: [],
+        },
+        {
+            command: "!convert",
+            description:
+                "Convert an amount from one currency to another.<br>Example: !convert 100 USD EUR",
+            args: ["X", "from", "to"],
+        },
+        {
             command: "!weather",
             description: "Get the weather, date, and time for a city.",
             args: ["city"],
@@ -55,7 +66,7 @@ const Commands = () => {
                             </span>
                         ))}
                     </div>
-                    <span>{cmd.description}</span>
+                    <span dangerouslySetInnerHTML={{ __html: cmd.description }} />
                 </div>
             ))}
         </div>
