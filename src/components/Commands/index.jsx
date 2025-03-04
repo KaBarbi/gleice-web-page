@@ -8,6 +8,11 @@ const Commands = () => {
             args: [],
         },
         {
+            command: "!weather",
+            description: "Get the weather, date, and time for a city.",
+            args: ["city"],
+        },
+        {
             command: "!sort",
             description:
                 "Performs a draw among the provided names, separated by spaces.",
