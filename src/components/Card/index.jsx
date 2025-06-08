@@ -6,7 +6,7 @@ const Card = () => {
     return (
         <div className="container">
             <div className="card-img">
-                <img src="/images/gleice.jpg" alt="Descrição" />
+                <img src="/images/gleiceAI.png" alt="Descrição" />
             </div>
             <div className="card-content">
                 <h2 className="card-title">Gleice Discord Bot</h2>
