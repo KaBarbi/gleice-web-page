@@ -1,12 +1,13 @@
-import React from "react"
 import Commands from "../components/Commands"
 
 import ButtonBack from "../components/ButtonBack"
+import Footer from "../components/Footer"
 const List = () => {
     return (
         <>
             <ButtonBack />
             <Commands />
+            <Footer />
         </>
     )
 }
