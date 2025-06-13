@@ -2,7 +2,7 @@ import "./footer.css";
 const Footer = () => {
     return (
         <>
-            <footer className="footer">Barbi © 2024</footer>
+            <footer className="footer">Barbi © 2025</footer>
         </>
     )
 }
