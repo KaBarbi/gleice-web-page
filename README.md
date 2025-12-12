@@ -1,8 +1,42 @@
-# Web Page for My Discord Bot
+# Discord Bot – Python
 
-## Overview
-This is the official web page for my Discord bot. The goal of this project is to develop my programming skills in a fun way.
+A multifunctional Discord bot built with **Python**, designed to handle moderation, utilities, giveaways, currency conversion, weather data, and more.
 
-Access it at: https://discord-bot-page-beige.vercel.app
-## Under Development
-This project is under constant development. New features will be added soon.
+This project also includes a small **web page** where users can invite the bot to their servers and view all available commands.
+
+## Features
+
+- Moderation tools (purge messages)
+
+- Utility commands (dice, say, sum)
+
+- Weather information
+
+- Currency conversion
+
+- Exchange rate lookup (USD → BRL)
+
+- Giveaway sorter
+
+- Web interface for inviting the bot and browsing the command list
+
+
+## Tech Stack
+
+- Python 3
+- discord.py
+- External APIs for: Weather data, Currency exchange rates
+- Web page built with modern frontend tools (React/Vite/JS + Tailwind CSS)
+
+## Web Page
+
+- The project includes a small web interface where users can:
+- Invite the bot to their Discord server
+- View the full list of commands
+
+You can access the page at:
+<https://discord-bot-page-beige.vercel.app>
+
+---
+
+Built with ❤️ by [Kaue Barbi](https://kabarbi.vercel.app)
